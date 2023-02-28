@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  width: 35vw;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.cards-list {
+  max-width: 30vw;
+}
+
+
+.travel-journal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.4em;
+  background-color: #F55A5A;
+  /* width: 550px;
+  height: 55px; */
+}
+
+.travel-journal-header h3 {
+  padding-left: 1rem;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.card-travel-image-wrapper {
+  width: 35vw;
+  max-width: 250px;
+  height: 11vh;
+}
+
+.card-travel-image {
+  float: left;
+  width: 90%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.card-map-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.card-map-container span {
+  padding: 0 20px 0 5px;
+}
+.card-text-container h2 {
+  font-size: 2em;
 }
